@@ -1,0 +1,10 @@
+﻿@namespace TinyMCE.Blazor
+
+@if (TinyMCEOption.InlineMode)
+{
+    <div @ref="_ref" id="@Id"></div>
+}
+else
+{
+    <textarea @ref="_ref" id="@Id"></textarea>
+}

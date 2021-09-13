@@ -1,0 +1,14 @@
+D:\source\SiteSeed\TinyMCE.Blazor\bin\Release\net6.0\TinyMCE.Blazor.deps.json
+D:\source\SiteSeed\TinyMCE.Blazor\bin\Release\net6.0\TinyMCE.Blazor.dll
+D:\source\SiteSeed\TinyMCE.Blazor\bin\Release\net6.0\ref\TinyMCE.Blazor.dll
+D:\source\SiteSeed\TinyMCE.Blazor\bin\Release\net6.0\TinyMCE.Blazor.pdb
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\TinyMCE.Blazor.csproj.AssemblyReference.cache
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\TinyMCE.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\TinyMCE.Blazor.AssemblyInfoInputs.cache
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\TinyMCE.Blazor.AssemblyInfo.cs
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\TinyMCE.Blazor.csproj.CoreCompileInputs.cache
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\staticwebassets\TinyMCE.Blazor.StaticWebAssets.Manifest.cache
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\scopedcss\bundle\TinyMCE.Blazor.styles.css
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\TinyMCE.Blazor.dll
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\ref\TinyMCE.Blazor.dll
+D:\source\SiteSeed\TinyMCE.Blazor\obj\Release\net6.0\TinyMCE.Blazor.pdb

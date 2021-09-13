@@ -1,0 +1,49 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<TinyMCE.Blazor.Editor @ref="editor" @bind-Value="text" Id="tiny" TinyMCEOption="TinyMCEOption" OnHandleCustomToolbar="HandleCustomToolbar" Height="700" Width="800">
+</TinyMCE.Blazor.Editor>
+<p>
+    @text
+</p>
+<p>
+    <button @onclick="Insert">插入内容</button>
+</p>
+
+@code{
+    TinyMCE.Blazor.Editor editor;
+    TinyMCE.Blazor.Models.TinyMCEOption TinyMCEOption = new Blazor.Models.TinyMCEOption();
+
+    string text;
+
+    protected override async Task OnInitializedAsync()
+    {
+        text = "<b>test tiny mce</b> <img src='https://www.baidu.com/img/2021dong_9d66d8a4c6a8a3eb9d235a7f91fb8fa4.gif'/> ";
+        TinyMCEOption.Toolbar = "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | link | custom-设置产品图片 | custom-插入产品";
+        await base.OnInitializedAsync();
+    }
+
+    async Task HandleCustomToolbar(string name)
+    {
+        if(name == "custom-设置产品图片")
+        {
+            await editor.InsertValue($"<b>{name}设置图片</b>");
+        }
+        else
+        {
+            await editor.InsertValue($"<b>{name}</b>");
+        }
+
+
+    }
+
+    async Task Insert()
+    {
+        await editor.InsertValue("<b>字体加粗</b>");
+    }
+}

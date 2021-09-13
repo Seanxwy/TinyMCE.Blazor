@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/TinyMCE.Blazor" Path="D:\source\SiteSeed\TinyMCE.Blazor\wwwroot\" />
+  <ContentRoot BasePath="_content/TinyMCE.Server" Path="D:\source\SiteSeed\TinyMCE.Server\obj\Debug\net6.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="_content/TinyMCE.Server" Path="D:\source\SiteSeed\TinyMCE.Server\obj\Debug\net6.0\scopedcss\projectbundle\" />
+</StaticWebAssets>
